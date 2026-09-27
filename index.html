@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student portfolio - ASSIGNMENT 2</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="page-container">
+
+    <!--task 0 and 4-->
+    <header class="s-header">
+        <div class="logo">MyPortfolio</div>
+        <nav class="s-nav">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#cards">CARDS</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a  href="#portfolio">PORTFOLIO</a></li>
+              </ul>
+        </nav>
+       </header>
+
+
+    <!--sidebar task 2 and 4 -->
+    <aside class="s-sidebar">
+        <h3> Navigation</h3>
+         <ul>
+            <li><a href="#home">DASHBOARD</a></li>
+            <li><a href="#cards">MY SKILLS</a></li>
+            <li><a href="#gallery">PHOTO GALLERY</a></li>
+            <li><a href="#portfolio">PROJECTS</a></li>
+        </ul>
+
+        <div class="sbar-info">
+            <h4>About Me</h4>
+            <p>I am learning front-end CSS flexbox and grid.</p>
+        </div>
+    </aside>
+
+    <!-- main container -->
+    <main class="s-main" id="home">
+
+        <!--task 1-->
+        <section class="s-cards" id="cards">
+            <h2>FEATURED CARDS</h2>
+            <div class="card-row">
+
+                  <article class="card">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <div class="card-content">
+                        <h3>HTML Basics</h3>
+                        <p>Semantic tags and document structure for websites</p>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <div class="card-content">
+                        <h3>CSS flexbox</h3>
+                        <p>One-dimensional layouts, alignment, distribution</p>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="images/project3.jpg" alt="Project 3">
+                    <div class="card-content">
+                        <h3>CSS grid</h3>
+                         <p> Two-dimensional layouts with rows and columns </p>
+                         <button class="btn">Learn More</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+        <!--task 3 -->
+         <section class="section-gallery" id="gallery">
+              <h2>Image Gallery</h2>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <img src="images/gallery1.jpg" alt="Gallery 1">
+                    <div class="overlay"><span> Caption 1</span></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery2.jpg" alt="Gallery 2">
+                    <div class="overlay"> <span> Caption 2</span></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery3.jpg" alt="Gallery 3">
+                    <div  class="overlay"><span>Caption 3</span></div>
+                </div> 
+
+                <div class="gallery-item">
+                    <img src="images/gallery4.jpg" alt="Gallery 4">
+                    <div class="overlay"> <span>Caption 4</span></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery5.jpg" alt="Gallery 5">
+                    <div class="overlay"><span> Caption 5</span></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery6.jpg" alt="Gallery 6">
+                    <div class="overlay"><span> Caption 6</span></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery7.jpg" alt="Gallery 7">
+                    <div class="overlay"><span>Caption 7</span></div>
+                </div>
+
+                <div  class="gallery-item">
+                    <img src="images/gallery8.jpg" alt="Gallery 8">
+                    <div class="overlay"><span>Caption 8</span></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery9.jpg" alt="Gallery 9">
+                    <div class="overlay"><span>Caption 9</span></div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--task 4 -->
+        <section class="section-portfolio" id="portfolio">
+
+            <h2>My Projects</h2>
+            <div class="portfolio-layout">
+                <div class="portfolio-projects">
+
+                    <div class="project-card">
+                        <h3>WEB APP 1</h3>
+                        <p>Simple landing page built with standard CSS.</p>
+                        <button>View code</button>
+                    </div>
+
+
+
+                    <div class="project-card">
+                        <h3>WEB APP 2</h3>
+                        <p>An interactive student task manager interface.</p>
+                        <button>View code</button>
+                    </div>
+                </div>
+
+                <aside class="portfolio-info">
+                    <h3>My Info</h3>
+                    <p>I am learning front-end development.</p>
+                    <p>I am currently practicing HTML, CSS, flexbox and grid.</p>
+                    <p>My target is to write simple and responsive web pages.</p>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <!--footer task 2 and 4 -->
+    <footer class="site-footer">
+        <p>&copy; made by khanziik</p>
+    </footer>
+</div>
+
+</body>
+</html>
